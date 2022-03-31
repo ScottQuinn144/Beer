@@ -9,14 +9,28 @@
 </head>
 
 <body>
-    <article class="container">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">Beer Monthly</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home!</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/about">About Us!</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up!</a></li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2">World's finest beer delivered to you</p>
+            <a href="/sign-in">Sign In / Sign Up</a>
+        </div>
+    </nav>
+    <article class="container mt-3">
         <div class="row">
             <div class="col-12">
         <!--Callout-->
-                <section class="callout">
+                <section class="callout jumbotron text-center">
                     <h1>Beer Bros - Beer that is near</h1>
                     <p class="lead">Sign up today to start receiving the world's best beer every month. 
-                    <s>$19.95</s> <strong><mark>First one is free!</mark></strong></p>
+                    <s class="d-none d-sm-inline">$19.95</s> 
+                    <span class="d-inline d-sm-none"><br></span>
+                    <strong><mark>First one is free!</mark></strong></p>
                     <button class="btn btn-warning btn-lg">Sign Up!</button>  
                     <p class="text-muted"><small>You must be over 18 to sign up or use our services, Please drink responsibly </small></p>
                 </section>
@@ -26,7 +40,7 @@
         <!--Quotes-->
         <section class="quotes">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Quotes:</h2>
                 </div>
             </div>
@@ -49,7 +63,7 @@
         <!--Features-->
         <section class="features">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Features:</h2>
                 </div>
             </div>
